@@ -13,7 +13,7 @@ plugins {
     id("com.google.gms.google-services")
 }
 
-// Replacement upload key confirmed active in Play Console by the owner on 2026-11-15.
+// Registered Google Play upload certificate.
 val expectedUploadCertificateSha256 = "F1:E2:B7:D8:B6:AC:FF:65:C0:62:58:A1:8F:C0:0A:71:10:B5:41:EB:15:F3:DC:9A:5C:6B:E8:6F:61:D1:F6:D0"
 val signingRoot = providers.environmentVariable("SIGNING_ROOT")
     .getOrElse("${System.getProperty("user.home")}/.signing")
@@ -42,7 +42,7 @@ fun verifyUploadIdentity(propertiesFile: File): Properties {
     val keystore = try {
         KeyStore.getInstance(keystoreFile, properties.getProperty("storePassword").toCharArray())
     } catch (_: Exception) {
-        error("Cannot open the upload keystore. Check its format and store password locally; do not paste passwords into chat.")
+        error("Cannot open the upload keystore. Check its format and store password in the local signing configuration.")
     }
     val alias = properties.getProperty("keyAlias")
     check(keystore.isKeyEntry(alias)) { "The configured alias does not contain a private key." }

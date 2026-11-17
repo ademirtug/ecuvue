@@ -61,13 +61,13 @@ No raw ELM commands, device-address selection, clearing codes, readiness reset, 
 
 ## Automated verification
 
-`PortIntegrationTest.androidSystemDiscoversAndExecutesReadOnlyFunctions` uses the real OS function registry and invocation command, rather than calling an annotated Kotlin method directly. It checks all seven IDs, opt-in, connection reuse, returned simulated faults and explanations, VIN exclusion and disabled access with the Activity stopped. Additional cases cover saved-profile persistence and approval/forget UI, and the actual native connection controller/foreground service with an injected transport, including background denial or successful startup. Core tests cover approval reset, no simulator persistence, stable USB identity, failed persistence, concurrent calls and revocation during a handshake. See VALIDATION.md for actual run results and limits.
+`PortIntegrationTest.androidSystemDiscoversAndExecutesReadOnlyFunctions` uses the real OS function registry and invocation command, rather than calling an annotated Kotlin method directly. It checks all seven IDs, opt-in, connection reuse, returned simulated faults and explanations, VIN exclusion and disabled access with the Activity stopped. Additional cases cover saved-profile persistence and approval/forget UI, and the actual native connection controller/foreground service with an injected transport, including background denial or successful startup. Core tests cover approval reset, no simulator persistence, stable USB identity, failed persistence, concurrent calls and revocation during a handshake.
 
 ## Gemini distribution
 
-Connect the existing Play app to an eligible Google Connected Console account using the Android MCP connection type. Upload the AppFunctions-enabled bundle to a test track, configure the connected-app information and testers, test through Gemini, and complete the applicable Play review. The app is prepared locally; no console registration, external upload or production publication was performed.
+Connect the existing Play app to an eligible Google Connected Console account using the Android MCP connection type. Upload the AppFunctions-enabled bundle to a test track, configure the connected-app information and testers, test through Gemini, and complete the applicable Play review.
 
-### Prepared console details and next steps
+### Connected app configuration
 
 - Existing Play package: `app.leximo.ecu_vue`; prepared version: `0.2.0`, code `14`. Reuse its existing Play listing and upload identity. Choose a Connected Apps category that accurately covers the available functionality and meets its requirements; do not assume category eligibility.
 - Suggested public name: **ECU Vue**. Description: **Read your car's generic OBD fault codes and sensor readings through your approved diagnostic adapter, with offline code explanations and saved reports.**

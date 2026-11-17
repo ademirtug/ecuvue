@@ -8,8 +8,7 @@ by Play in the older build 13 bundle. The build helper does not access or publis
 
 ## Registered upload identity
 
-The owner confirmed the replacement upload key is active in Play Console on 2026-11-15.
-Release builds now require its public SHA-256 fingerprint:
+Release builds require the registered upload certificate's public SHA-256 fingerprint:
 
 ```text
 F1:E2:B7:D8:B6:AC:FF:65:C0:62:58:A1:8F:C0:0A:71:10:B5:41:EB:15:F3:DC:9A:5C:6B:E8:6F:61:D1:F6:D0
@@ -40,7 +39,7 @@ upload certificate with SHA-256
 ## Restore once, keep signing outside the project
 
 Store the original private keystore and `key.properties` outside the project. A properties
-file needs these four fields, filled in locally (never paste passwords into chat):
+file needs these four fields, filled in locally:
 
 ```properties
 storeFile=upload-keystore.jks

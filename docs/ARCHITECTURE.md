@@ -47,7 +47,7 @@ The application scope is cancelled when its Koin definition closes. Desktop clos
 
 ## Verification
 
-Tests cover graph singleton identity and tool consent, injected transport selection, relevant settings notifications, stale enable cancellation, discovery cancellation and error retention, and Activity bridge ownership. Emulator tests cover the complete UI, Activity recreation without losing the session, and real Android AppFunctions execution with the Activity stopped. See [validation](VALIDATION.md) for results and hardware/iOS verification limits.
+Tests cover graph singleton identity and tool consent, injected transport selection, relevant settings notifications, stale enable cancellation, discovery cancellation and error retention, and Activity bridge ownership. Emulator tests cover the complete UI, Activity recreation without losing the session, and real Android AppFunctions execution with the Activity stopped. Hardware compatibility and iOS builds require separate validation on the intended platforms.
 
 Koin references: [setup and versions](https://insert-koin.io/docs/setup/), [starting outside Compose](https://insert-koin.io/docs/reference/koin-compose/compose/), [classic module definitions](https://insert-koin.io/docs/reference/koin-core/starting-koin/).
 
