@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="launcher_background">#F5F5F5</color>
+    <color name="launcher_foreground">#202020</color>
+    <color name="launcher_background_light">#F5F5F5</color>
+    <color name="launcher_foreground_light">#202020</color>
+    <color name="launcher_background_dark">#151515</color>
+    <color name="launcher_foreground_dark">#F2F2F2</color>
+    <color name="launcher_background_ice_blue_light">#F1F7FB</color>
+    <color name="launcher_foreground_ice_blue_light">#17649A</color>
+    <color name="launcher_background_ice_blue_dark">#151515</color>
+    <color name="launcher_foreground_ice_blue_dark">#9DD7FF</color>
+    <color name="launcher_background_racing_green_light">#F2F7F1</color>
+    <color name="launcher_foreground_racing_green_light">#24633D</color>
+    <color name="launcher_background_racing_green_dark">#151515</color>
+    <color name="launcher_foreground_racing_green_dark">#9ED7B1</color>
+    <color name="launcher_background_sunset_light">#FBF5EF</color>
+    <color name="launcher_foreground_sunset_light">#9A4F16</color>
+    <color name="launcher_background_sunset_dark">#151515</color>
+    <color name="launcher_foreground_sunset_dark">#FFC08A</color>
+</resources>

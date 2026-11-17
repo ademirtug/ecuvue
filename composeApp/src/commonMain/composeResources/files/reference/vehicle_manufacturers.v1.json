@@ -1,0 +1,512 @@
+{
+  "version": "2026-10-31",
+  "source": "NHTSA vPIC DecodeWMI",
+  "scope": "Manufacturer identifiers only; not a global VIN decoder.",
+  "entries": {
+    "19U": {
+      "manufacturer": "Honda",
+      "makes": "ACURA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/19U?format=json"
+    },
+    "19X": {
+      "manufacturer": "Honda",
+      "makes": "HONDA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/19X?format=json"
+    },
+    "1C4": {
+      "manufacturer": "Chrysler",
+      "makes": "DODGE, CHRYSLER, VOLKSWAGEN, JEEP, FIAT, RAM, LANCIA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1C4?format=json"
+    },
+    "1C6": {
+      "manufacturer": "Chrysler",
+      "makes": "DODGE, CHRYSLER, VOLKSWAGEN, JEEP, FIAT, RAM, LANCIA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1C6?format=json"
+    },
+    "1FA": {
+      "manufacturer": "Ford",
+      "makes": "FORD",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1FA?format=json"
+    },
+    "1FM": {
+      "manufacturer": "Ford",
+      "makes": "FORD",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1FM?format=json"
+    },
+    "1FT": {
+      "manufacturer": "Ford",
+      "makes": "FORD",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1FT?format=json"
+    },
+    "1G1": {
+      "manufacturer": "General Motors",
+      "makes": "CHEVROLET",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1G1?format=json"
+    },
+    "1G6": {
+      "manufacturer": "General Motors",
+      "makes": "CADILLAC",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1G6?format=json"
+    },
+    "1GC": {
+      "manufacturer": "General Motors",
+      "makes": "CHEVROLET",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1GC?format=json"
+    },
+    "1GK": {
+      "manufacturer": "General Motors",
+      "makes": "GMC",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1GK?format=json"
+    },
+    "1HG": {
+      "manufacturer": "Honda",
+      "makes": "HONDA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1HG?format=json"
+    },
+    "1N4": {
+      "manufacturer": "Nissan",
+      "makes": "NISSAN, INFINITI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1N4?format=json"
+    },
+    "1N6": {
+      "manufacturer": "Nissan",
+      "makes": "NISSAN, INFINITI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1N6?format=json"
+    },
+    "1VW": {
+      "manufacturer": "Volkswagen",
+      "makes": "VOLKSWAGEN",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/1VW?format=json"
+    },
+    "2C3": {
+      "manufacturer": "Chrysler",
+      "makes": "DODGE, CHRYSLER, FIAT, LANCIA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/2C3?format=json"
+    },
+    "2C4": {
+      "manufacturer": "Chrysler",
+      "makes": "DODGE, CHRYSLER, VOLKSWAGEN, JEEP, FIAT, RAM, LANCIA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/2C4?format=json"
+    },
+    "2G1": {
+      "manufacturer": "General Motors",
+      "makes": "CHEVROLET",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/2G1?format=json"
+    },
+    "2HG": {
+      "manufacturer": "Honda",
+      "makes": "HONDA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/2HG?format=json"
+    },
+    "3FA": {
+      "manufacturer": "Ford",
+      "makes": "FORD",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/3FA?format=json"
+    },
+    "3N1": {
+      "manufacturer": "Nissan",
+      "makes": "NISSAN, INFINITI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/3N1?format=json"
+    },
+    "3VW": {
+      "manufacturer": "Volkswagen",
+      "makes": "VOLKSWAGEN",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/3VW?format=json"
+    },
+    "4JG": {
+      "manufacturer": "Mercedes-Benz",
+      "makes": "MERCEDES-BENZ",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/4JG?format=json"
+    },
+    "4S3": {
+      "manufacturer": "Subaru",
+      "makes": "SUBARU",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/4S3?format=json"
+    },
+    "4S4": {
+      "manufacturer": "Subaru",
+      "makes": "SUBARU",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/4S4?format=json"
+    },
+    "4T1": {
+      "manufacturer": "Toyota",
+      "makes": "TOYOTA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/4T1?format=json"
+    },
+    "4T3": {
+      "manufacturer": "Toyota",
+      "makes": "TOYOTA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/4T3?format=json"
+    },
+    "55S": {
+      "manufacturer": "Mercedes-Benz",
+      "makes": "MERCEDES-BENZ",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/55S?format=json"
+    },
+    "5J6": {
+      "manufacturer": "Honda",
+      "makes": "HONDA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/5J6?format=json"
+    },
+    "5NM": {
+      "manufacturer": "Hyundai",
+      "makes": "HYUNDAI, GENESIS",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/5NM?format=json"
+    },
+    "5NP": {
+      "manufacturer": "Hyundai-Kia",
+      "makes": "HYUNDAI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/5NP?format=json"
+    },
+    "5TD": {
+      "manufacturer": "Toyota",
+      "makes": "TOYOTA, LEXUS",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/5TD?format=json"
+    },
+    "5TF": {
+      "manufacturer": "Toyota",
+      "makes": "TOYOTA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/5TF?format=json"
+    },
+    "5UX": {
+      "manufacturer": "BMW",
+      "makes": "BMW",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/5UX?format=json"
+    },
+    "5XX": {
+      "manufacturer": "Kia",
+      "makes": "KIA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/5XX?format=json"
+    },
+    "5YJ": {
+      "manufacturer": "Tesla",
+      "makes": "TESLA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/5YJ?format=json"
+    },
+    "5YM": {
+      "manufacturer": "BMW",
+      "makes": "BMW",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/5YM?format=json"
+    },
+    "7SA": {
+      "manufacturer": "Tesla",
+      "makes": "TESLA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/7SA?format=json"
+    },
+    "JF1": {
+      "manufacturer": "Subaru",
+      "makes": "TOYOTA, SUBARU",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JF1?format=json"
+    },
+    "JF2": {
+      "manufacturer": "Subaru",
+      "makes": "SUBARU",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JF2?format=json"
+    },
+    "JH4": {
+      "manufacturer": "Honda",
+      "makes": "ACURA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JH4?format=json"
+    },
+    "JHL": {
+      "manufacturer": "Honda",
+      "makes": "HONDA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JHL?format=json"
+    },
+    "JHM": {
+      "manufacturer": "Honda",
+      "makes": "HONDA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JHM?format=json"
+    },
+    "JM1": {
+      "manufacturer": "Mazda",
+      "makes": "MAZDA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JM1?format=json"
+    },
+    "JM3": {
+      "manufacturer": "Mazda",
+      "makes": "MAZDA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JM3?format=json"
+    },
+    "JN1": {
+      "manufacturer": "Nissan",
+      "makes": "NISSAN, INFINITI, DATSUN",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JN1?format=json"
+    },
+    "JN8": {
+      "manufacturer": "Nissan",
+      "makes": "NISSAN, INFINITI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JN8?format=json"
+    },
+    "JNK": {
+      "manufacturer": "Nissan",
+      "makes": "INFINITI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JNK?format=json"
+    },
+    "JT2": {
+      "manufacturer": "Toyota",
+      "makes": "TOYOTA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JT2?format=json"
+    },
+    "JT3": {
+      "manufacturer": "Toyota",
+      "makes": "TOYOTA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JT3?format=json"
+    },
+    "JT4": {
+      "manufacturer": "Toyota",
+      "makes": "TOYOTA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JT4?format=json"
+    },
+    "JT6": {
+      "manufacturer": "Toyota",
+      "makes": "LEXUS",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JT6?format=json"
+    },
+    "JT8": {
+      "manufacturer": "Toyota",
+      "makes": "LEXUS",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JT8?format=json"
+    },
+    "JTD": {
+      "manufacturer": "Toyota",
+      "makes": "TOYOTA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JTD?format=json"
+    },
+    "JTE": {
+      "manufacturer": "Toyota",
+      "makes": "TOYOTA, LEXUS, SUBARU",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JTE?format=json"
+    },
+    "JTH": {
+      "manufacturer": "Toyota",
+      "makes": "LEXUS",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JTH?format=json"
+    },
+    "JTJ": {
+      "manufacturer": "Toyota",
+      "makes": "LEXUS",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JTJ?format=json"
+    },
+    "JTM": {
+      "manufacturer": "Toyota",
+      "makes": "TOYOTA, SUBARU",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JTM?format=json"
+    },
+    "KL1": {
+      "manufacturer": "General Motors",
+      "makes": "CHEVROLET",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/KL1?format=json"
+    },
+    "KL7": {
+      "manufacturer": "General Motors",
+      "makes": "CHEVROLET",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/KL7?format=json"
+    },
+    "KM8": {
+      "manufacturer": "Hyundai",
+      "makes": "HYUNDAI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/KM8?format=json"
+    },
+    "KMH": {
+      "manufacturer": "Hyundai",
+      "makes": "HYUNDAI, GENESIS",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/KMH?format=json"
+    },
+    "KNA": {
+      "manufacturer": "Kia",
+      "makes": "KIA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/KNA?format=json"
+    },
+    "KND": {
+      "manufacturer": "Kia",
+      "makes": "HYUNDAI, KIA",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/KND?format=json"
+    },
+    "SAJ": {
+      "manufacturer": "Jaguar Land Rover",
+      "makes": "JAGUAR",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/SAJ?format=json"
+    },
+    "SAL": {
+      "manufacturer": "Jaguar Land Rover",
+      "makes": "LAND ROVER",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/SAL?format=json"
+    },
+    "SCA": {
+      "manufacturer": "Rolls Royce",
+      "makes": "ROLLS-ROYCE",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/SCA?format=json"
+    },
+    "SCB": {
+      "manufacturer": "Bentley",
+      "makes": "BENTLEY",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/SCB?format=json"
+    },
+    "TRU": {
+      "manufacturer": "Audi",
+      "makes": "AUDI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/TRU?format=json"
+    },
+    "VF1": {
+      "manufacturer": "Renault",
+      "makes": "EAGLE, RENAULT",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/VF1?format=json"
+    },
+    "VF3": {
+      "manufacturer": "Peugeot",
+      "makes": "PEUGEOT",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/VF3?format=json"
+    },
+    "W0L": {
+      "manufacturer": "General Motors",
+      "makes": "OPEL",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/W0L?format=json"
+    },
+    "W0V": {
+      "manufacturer": "General Motors",
+      "makes": "OPEL",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/W0V?format=json"
+    },
+    "W1K": {
+      "manufacturer": "Mercedes-Benz",
+      "makes": "MERCEDES-BENZ",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/W1K?format=json"
+    },
+    "W1N": {
+      "manufacturer": "Mercedes-Benz",
+      "makes": "MERCEDES-BENZ",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/W1N?format=json"
+    },
+    "WA1": {
+      "manufacturer": "Audi",
+      "makes": "AUDI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WA1?format=json"
+    },
+    "WAU": {
+      "manufacturer": "Audi",
+      "makes": "AUDI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WAU?format=json"
+    },
+    "WBA": {
+      "manufacturer": "BMW",
+      "makes": "BMW",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WBA?format=json"
+    },
+    "WBS": {
+      "manufacturer": "BMW",
+      "makes": "BMW",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WBS?format=json"
+    },
+    "WBX": {
+      "manufacturer": "BMW",
+      "makes": "BMW",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WBX?format=json"
+    },
+    "WBY": {
+      "manufacturer": "BMW",
+      "makes": "BMW",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WBY?format=json"
+    },
+    "WD3": {
+      "manufacturer": "Mercedes-Benz",
+      "makes": "MERCEDES-BENZ",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WD3?format=json"
+    },
+    "WD4": {
+      "manufacturer": "Mercedes-Benz",
+      "makes": "MERCEDES-BENZ, FREIGHTLINER",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WD4?format=json"
+    },
+    "WDB": {
+      "manufacturer": "Mercedes-Benz",
+      "makes": "MERCEDES-BENZ, MAYBACH",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WDB?format=json"
+    },
+    "WDC": {
+      "manufacturer": "Mercedes-Benz",
+      "makes": "MERCEDES-BENZ",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WDC?format=json"
+    },
+    "WDD": {
+      "manufacturer": "Mercedes-Benz",
+      "makes": "MERCEDES-BENZ",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WDD?format=json"
+    },
+    "WF0": {
+      "manufacturer": "Ford",
+      "makes": "FORD",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WF0?format=json"
+    },
+    "WMW": {
+      "manufacturer": "BMW",
+      "makes": "MINI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WMW?format=json"
+    },
+    "WUA": {
+      "manufacturer": "Audi",
+      "makes": "AUDI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WUA?format=json"
+    },
+    "WV1": {
+      "manufacturer": "Volkswagen",
+      "makes": "VOLKSWAGEN",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WV1?format=json"
+    },
+    "WV2": {
+      "manufacturer": "Volkswagen",
+      "makes": "VOLKSWAGEN",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WV2?format=json"
+    },
+    "WVG": {
+      "manufacturer": "Volkswagen",
+      "makes": "VOLKSWAGEN",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WVG?format=json"
+    },
+    "WVW": {
+      "manufacturer": "Volkswagen",
+      "makes": "VOLKSWAGEN",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/WVW?format=json"
+    },
+    "YS3": {
+      "manufacturer": "SAAB",
+      "makes": "SAAB",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/YS3?format=json"
+    },
+    "YV1": {
+      "manufacturer": "Volvo",
+      "makes": "VOLVO",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/YV1?format=json"
+    },
+    "YV4": {
+      "manufacturer": "Volvo",
+      "makes": "VOLVO",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/YV4?format=json"
+    },
+    "ZAM": {
+      "manufacturer": "Maserati",
+      "makes": "MASERATI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/ZAM?format=json"
+    },
+    "ZAR": {
+      "manufacturer": "Alfa Romeo",
+      "makes": "ALFA ROMEO",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/ZAR?format=json"
+    },
+    "ZFA": {
+      "manufacturer": "Stellantis",
+      "makes": "FIAT",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/ZFA?format=json"
+    },
+    "ZFF": {
+      "manufacturer": "Ferrari",
+      "makes": "FERRARI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/ZFF?format=json"
+    },
+    "ZHW": {
+      "manufacturer": "Lamborghini",
+      "makes": "LAMBORGHINI",
+      "source": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/ZHW?format=json"
+    }
+  }
+}

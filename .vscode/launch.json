@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ECU Vue: Android run (no debugger)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"${workspaceFolder}\\tools\\android-dev.ps1\" -Mode Run",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

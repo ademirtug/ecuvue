@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppFunctionAppMetadata xmlns:appfn="http://schemas.android.com/apk/res-auto"
+    appfn:description="ECU Vue provides generic OBD-II diagnostic readings from a user-approved diagnostic adapter. Connect in ECU Vue first. All assistant tools require the user to enable AI access and provide read-only vehicle diagnostics. Never present simulated readings as real. Cached reports include their collection time and may be stale. A code is a detected condition, not a confirmed failed part. No tool clears codes, programs an ECU, or sends arbitrary commands."
+    appfn:displayDescription="@string/app_function_display_description" />

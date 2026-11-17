@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_function_display_description">Read generic OBD-II fault codes, sensor readings and saved diagnostic reports through your approved adapter, with offline code explanations.</string>
+</resources>

@@ -1,0 +1,65 @@
+{
+  "en": {
+    "adaptersDescription": "Choose a Bluetooth adapter or the built-in simulated car.",
+    "findAdapters": "Find adapters",
+    "bluetoothClassic": "Classic",
+    "bluetoothFindHint": "Pair Classic adapters in Bluetooth settings, or use Find adapters to search for nearby BLE OBD adapters.",
+    "noBluetoothAdapters": "No Bluetooth adapters found. Check power and Bluetooth pairing, then search again."
+  },
+  "tr": {
+    "adaptersDescription": "Bir Bluetooth adaptörü veya yerleşik simüle edilmiş aracı seçin.",
+    "findAdapters": "Adaptörleri bul",
+    "bluetoothClassic": "Klasik",
+    "bluetoothFindHint": "Klasik adaptörleri Bluetooth ayarlarında eşleştirin veya yakındaki BLE OBD adaptörlerini aramak için Adaptörleri bul seçeneğini kullanın.",
+    "noBluetoothAdapters": "Bluetooth adaptörü bulunamadı. Gücü ve Bluetooth eşleştirmesini kontrol edip yeniden arayın."
+  },
+  "de": {
+    "adaptersDescription": "Wähle einen Bluetooth-Adapter oder das integrierte simulierte Fahrzeug.",
+    "findAdapters": "Adapter suchen",
+    "bluetoothClassic": "Klassisch",
+    "bluetoothFindHint": "Kopple klassische Adapter in den Bluetooth-Einstellungen oder suche mit Adapter suchen nach BLE-OBD-Adaptern in der Nähe.",
+    "noBluetoothAdapters": "Keine Bluetooth-Adapter gefunden. Prüfe Stromversorgung und Bluetooth-Kopplung und suche erneut."
+  },
+  "es": {
+    "adaptersDescription": "Elige un adaptador Bluetooth o el vehículo simulado integrado.",
+    "findAdapters": "Buscar adaptadores",
+    "bluetoothClassic": "Clásico",
+    "bluetoothFindHint": "Empareja los adaptadores clásicos en los ajustes de Bluetooth o usa Buscar adaptadores para encontrar adaptadores OBD BLE cercanos.",
+    "noBluetoothAdapters": "No se encontraron adaptadores Bluetooth. Comprueba la alimentación y el emparejamiento Bluetooth y vuelve a buscar."
+  },
+  "fr": {
+    "adaptersDescription": "Choisissez un adaptateur Bluetooth ou le véhicule simulé intégré.",
+    "findAdapters": "Rechercher des adaptateurs",
+    "bluetoothClassic": "Classique",
+    "bluetoothFindHint": "Associez les adaptateurs classiques dans les paramètres Bluetooth ou utilisez la recherche pour trouver des adaptateurs OBD BLE à proximité.",
+    "noBluetoothAdapters": "Aucun adaptateur Bluetooth trouvé. Vérifiez l’alimentation et l’association Bluetooth, puis relancez la recherche."
+  },
+  "it": {
+    "adaptersDescription": "Scegli un adattatore Bluetooth o il veicolo simulato integrato.",
+    "findAdapters": "Cerca adattatori",
+    "bluetoothClassic": "Classico",
+    "bluetoothFindHint": "Associa gli adattatori classici nelle impostazioni Bluetooth oppure usa Cerca adattatori per trovare adattatori OBD BLE nelle vicinanze.",
+    "noBluetoothAdapters": "Nessun adattatore Bluetooth trovato. Controlla l’alimentazione e l’associazione Bluetooth, quindi ripeti la ricerca."
+  },
+  "ja": {
+    "adaptersDescription": "Bluetoothアダプターまたは内蔵のシミュレーション車両を選択してください。",
+    "findAdapters": "アダプターを検索",
+    "bluetoothClassic": "クラシック",
+    "bluetoothFindHint": "クラシックアダプターはBluetooth設定でペアリングしてください。「アダプターを検索」で近くのBLE OBDアダプターを検索できます。",
+    "noBluetoothAdapters": "Bluetoothアダプターが見つかりません。電源とBluetoothのペアリングを確認し、もう一度検索してください。"
+  },
+  "zh": {
+    "adaptersDescription": "选择蓝牙适配器或内置模拟车辆。",
+    "findAdapters": "查找适配器",
+    "bluetoothClassic": "经典蓝牙",
+    "bluetoothFindHint": "请在蓝牙设置中配对经典蓝牙适配器，或使用“查找适配器”搜索附近的BLE OBD适配器。",
+    "noBluetoothAdapters": "未找到蓝牙适配器。请检查电源和蓝牙配对，然后重新搜索。"
+  },
+  "ar": {
+    "adaptersDescription": "اختر محول بلوتوث أو السيارة الافتراضية المدمجة.",
+    "findAdapters": "البحث عن محولات",
+    "bluetoothClassic": "كلاسيكي",
+    "bluetoothFindHint": "قم بإقران المحولات الكلاسيكية في إعدادات البلوتوث، أو استخدم البحث عن محولات للعثور على محولات OBD بتقنية BLE القريبة.",
+    "noBluetoothAdapters": "لم يتم العثور على محولات بلوتوث. تحقق من الطاقة وإقران البلوتوث ثم ابحث مرة أخرى."
+  }
+}
